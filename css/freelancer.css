@@ -58,11 +58,11 @@ hr.star-light:after {
   color: white;
 }
 hr.star-primary {
-  border-color: #828282;
+  border-color: #3d1b3e73;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #828282f;
+  color: #3d1b3e73;
 }
 .img-centered {
   margin: 0 auto;
@@ -104,7 +104,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #828282;
+  background: #3d1b3e73;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -129,22 +129,25 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #F4E5EA;
-  outline: none;
+  color: none;
+  outline: white;
+  outline-width: 10px;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
   color: white;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #F4E5EA;
+  color: none;
+  outline: white;
+  outline-width: 10px;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #F4E5EA;
+  color: none;
+  outline: white;
+  outline-width: 10px;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -186,8 +189,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #F4E5EA;
-  color: white;
+  background-image: url("../img/background.jpg");
+  color: black;
 }
 @media (max-width: 767px) {
   section {
@@ -302,7 +305,7 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #828282;
+  background-color: #3d1b3e73;
 }
 footer .footer-col {
   margin-bottom: 50px;
@@ -329,8 +332,8 @@ footer .footer-below {
 }
 .btn-primary {
   color: white;
-  background-color: #828282;
-  border-color: #828282;
+  background-color: #3d1b3e73;
+  border-color: #3d1b3e73;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -362,11 +365,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #828282;
-  border-color: #828282;
+  background-color: #3d1b3e73;
+  border-color: #3d1b3e73;
 }
 .btn-primary .badge {
-  color: #828282;
+  color: #3d1b3e73;
   background-color: white;
 }
 .btn-success {
@@ -480,7 +483,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #828282;
+  background-color: #3d1b3e73;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -491,7 +494,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #828282;
+  background-color: #3d1b3e73;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
