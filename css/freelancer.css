@@ -69,8 +69,8 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #F4E5EA;
-  color: white;
+  background-image: url("../img/background.jpg");
+  color: black;
 }
 header .container {
   padding-top: 100px;
@@ -79,6 +79,7 @@ header .container {
 header img {
   display: block;
   margin: 0 auto 20px;
+  border-radius: 40px;
 }
 header .intro-text .name {
   display: block;
@@ -181,12 +182,29 @@ header .intro-text .skills {
     font-size: 1.5em;
   }
 }
+.row .control-group {
+  background-color: white;
+}
+.locationIcon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  bottom: 3px;
+}
 section {
   padding: 100px 0;
 }
 section h2 {
   margin: 0;
   font-size: 3em;
+}
+section.resume {
+  background-color: white;
+  color: black;
+}
+section.contact {
+  background-image: url("../img/background.jpg");
+  color: black;
 }
 section.success {
   background-image: url("../img/background.jpg");
