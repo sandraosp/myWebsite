@@ -104,6 +104,22 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+.jobtitle {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.place {
+  color: #604d60;
+}
+.time {
+  color: #403e40;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.about-job {
+  font-size: 18px;
+}
 .navbar-custom {
   background: #3d1b3e73;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -197,6 +213,11 @@ section {
 section h2 {
   margin: 0;
   font-size: 3em;
+}
+section.row {
+  width: 50%;
+  width: calc(100% / 2);
+  display: inline-block;
 }
 section.resume {
   background-color: white;
